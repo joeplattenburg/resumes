@@ -1,0 +1,99 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Joseph Plattenburg} 
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{226 Irving Way}
+ \moveleft.5\hoffset\centerline{Columbus, OH 43214}
+ \moveleft.5\hoffset\centerline{(937) 901-6576 | joeplattenburg@gmail.com}
+
+
+\begin{resume}
+ 
+\section{OBJECTIVE} A full-time technical position in industry R\&D. 
+
+ 
+\section{EXPERIENCE} 
+                {\sl Director of Data Science} \hfill July 2018 | Present \\
+                 Root Insurance Company, Columbus, OH
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Led the telematics data science team in the implementation of                        new predictive scoring models 
+                 \item Oversaw and comtributed to migration of production code to a 
+                       more consistent and robust Python framework   
+                 \end{itemize}
+ 
+                {\sl Lead Data Scientist} \hfill Apr 2018 | July 2018 \\
+                 Root Insurance Company, Columbus, OH
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Built predictive models for scoring, distracted driving, and
+                       driver passenger classification, improving predictive power by
+                       nearly 2X
+                 \end{itemize} 
+                {\sl Advanced Engineer, R\&D} \hfill June 2016 | Apr 2017 \\
+                 Owens Corning Science and Technology, Granville, OH
+                 \begin{itemize}
+                 \item Designed experimental procedure and data analysis algorithm
+                       for material property testing
+                 \item Led initiative for collaboration with university
+                       researchers, leading to a funded project 
+                 \end{itemize}
+                {\sl Independent Consultant} \hfill 2015 | Present
+                 \begin{itemize} \itemsep -2pt
+                 \item Developed prototype software and hardware interface for 
+                       real-time detection and classification of acoustic events
+                 \end{itemize} 
+
+
+\section{EDUCATION} 
+               {\sl PhD}, Mechanical Engineering \\
+                The Ohio State University, Columbus, OH \\
+                May 2016, GPA: 4.0 \\
+                Focus Areas: Acoustics/Vibrations. Signal Processing, Modeling
+
+                {\sl Bachelor of Science}, Mechanical Engineering \\
+                The Ohio State University, Columbus, OH \\ 
+                June 2012, GPA: 3.97 \\ 
+                Minors: Mathematics, Music 
+ 
+ 
+\section{SKILLS} 
+               {\sl Operating Systems:} Ubuntu, Windows, Mac \\ 
+               {\sl Languages:} Python, R, MATLAB, SQL (Postgres/Redshift), C, bash\\
+               {\sl Modeling/Analysis:} GLMs, GBMs, random forests, neural networks, 
+                    PCA, time/frequency domain methods (FFT, autocorrelation, 
+                    wavelets) \\
+               {\sl Relevant Coursework:} Digital Signal Processing, Advanced Linear 
+                    Algebra/Linear System Theory, Numerical Methods, Statistics \\ 
+               {\sl Spanish Language:} read, write, and speak with basic competence
+
+
+\section{RESEARCH}
+               {\sl PhD Dissertation:} Analytical Vibration Models for Plates and
+                    Shells with Combined Active and Passive Damping
+               \begin{itemize}
+               \item Developed semi-analytical models of structural noise and
+                     vibration response with experimental validation
+               \end{itemize}
+               {\sl Undergraduate Research:} Bearing Health and Load Monitoring Study
+               \begin{itemize}
+               \item Measured frequency response of automotive bearing for
+                     diagnostics and failure prediction
+               \end{itemize}
+
+
+\end{resume}
+
+\end{document}
+
+
+
+
