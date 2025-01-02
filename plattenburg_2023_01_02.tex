@@ -1,0 +1,90 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Joseph Plattenburg} 
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{226 Irving Way}
+ \moveleft.5\hoffset\centerline{Columbus, OH 43214}
+ \moveleft.5\hoffset\centerline{(937) 901-6576 | joeplattenburg@gmail.com}
+
+
+\begin{resume}
+
+ 
+\section{EXPERIENCE} 
+                {\bf Root Insurance Company, Columbus, OH} \\
+                {\sl Staff Data Scientist} \hfill Nov 2020 | Present
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Developed new predictive scoring model, providing over 10\% improvement
+                 \item Led rearchitecture of ETL pipeline, delivering 100x cost reduction
+                 \item Supported development of internal software package repository
+                 \item Managed 1-2 data scientists and provided consulting 
+                 on several cross-disciplinary projects
+                 \end{itemize}
+
+                {\sl Director of Data Science, Telematics} \hfill July 2019 | Nov 2020
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Managed team of 4-6 data scientists 
+                 \item Oversaw implemention of new scoring models and telematics algorithms
+                 \item Led and contributed to redesign of production code in python
+                 \end{itemize}
+ 
+                {\sl Lead Data Scientist, Telematics} \hfill Apr 2018 | July 2019
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Built predictive models for scoring, distracted driving, and
+                       driver passenger classification
+                 \item Improved predictive power of existing algorithms by nearly 2x
+                 \end{itemize} 
+                
+                {\bf Owens Corning Science and Technology, Granville, OH} \\
+                {\sl Advanced R\&D Engineer} \hfill June 2016 | Apr 2017
+                 \begin{itemize}
+                 \item Designed experimental procedure and data analysis algorithm
+                       for material property testing
+                 \item Initiated collaboration with university
+                       researchers, leading to a funded project 
+                 \end{itemize}
+
+                {\bf Self-Employment} \\
+                {\sl Independent Contractor} \hfill 2015 | 2021
+                 \begin{itemize} \itemsep -2pt
+                 \item Developed prototype software and hardware interface for 
+                       real-time detection and classification of acoustic events
+                 \end{itemize} 
+
+
+\section{EDUCATION} 
+                {\sl PhD}, Mechanical Engineering, May 2016 \\
+                The Ohio State University, Columbus, OH (GPA: 4.0) \\
+                {\sl Focus Areas:} Acoustics/Vibrations, Signal Processing, Modeling \\
+                {\sl Dissertation:} ``Analytical Vibration Models for Plates and 
+                Shells with Combined Active and Passive Damping''
+
+                {\sl Bachelor of Science}, Mechanical Engineering, June 2012 \\
+                The Ohio State University, Columbus, OH (GPA: 3.97) \\ 
+                {\sl Minors:} Mathematics, Music 
+ 
+ 
+\section{SKILLS} 
+               {\sl Operating Systems:} Ubuntu, Windows, Mac \\ 
+               {\sl Languages:} Python, SQL (Postgres/Redshift), R, MATLAB, bash \\
+               {\sl Tools / Frameworks:} Jupyter, Spark, AWS (Athena, Glue, Sagemaker) \\
+               {\sl Data Science:} Exploratory analysis, time series, predictive modeling 
+               (e.g. GLM, GBM, Random Forest), model deployment and evaluation \\
+               {\sl Data Engineering:} ETL pipelines, ML model deployment pipelines, CI pipelines \\
+               {\sl Spanish Language:} read, write, and speak with basic competence
+
+
+\end{resume}
+
+\end{document}
+
